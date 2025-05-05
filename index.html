@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Travel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" />
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <div class="navbar bg-white px-8 py-4 shadow-md">
+    <div class="flex-1">
+      <img src="images/Group 40071 (2).png" alt="Logo" class="w-10 h-10 object-cover rounded-full" />
+      <a class="text-2xl font-bold text-orange-500 ml-2">Hero <span class="text-black">Travel</span></a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1 bg-white">
+        <li><a class="text-orange-500">Home</a></li>
+        <li><a>Packages</a></li>
+        <li><a>Testimonial</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+<section class="relative bg-cover bg-center h-[550px] rounded-xl overflow-hidden mx-8 mt-6" style="background-image: url('images/Group 13 (1) (1).png');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center text-white px-4">
+      <h1 class="text-4xl lg:text-5xl font-bold mb-4">Explore Your Travel</h1>
+      <p class="mb-6 max-w-2xl">
+        Lorem ipsum dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor placerat.
+      </p>
+  
+      <div class="bg-white bg-opacity-20 backdrop-blur-md rounded-xl p-4 flex flex-col lg:flex-row items-center gap-4 w-full max-w-4xl">
+        
+        <input
+          type="text"
+          placeholder="Where go"
+          class="input input-bordered w-full lg:w-auto bg-gray-100 text-black placeholder-gray-500"
+        />
+  
+        <div class="relative w-full lg:w-auto">
+          <button
+            class="input input-bordered w-full lg:w-40 bg-gray-100 text-black text-left flex items-center justify-between"
+          >
+            When
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
+  
+        <div class="relative w-full lg:w-auto">
+            <button
+              class="input input-bordered w-full lg:w-40 bg-gray-100 text-black text-left flex items-center justify-between"
+            >
+              Select Type
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+  
+        <button class="btn bg-orange-500 hover:bg-orange-600 text-white border-none w-full lg:w-auto flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.15-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          Find Now
+        </button>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="deals" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-2">Deals & Discounts</h2>
+        <p class="text-gray-600 max-w-xl mx-auto">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.
+          Scelerisque dictumst nec nibh pellentesque.
+        </p>
+      </div>
+  
+      <div class="space-y-10">
+        <div class="relative rounded-lg overflow-hidden">
+          <img src="images/Group 39.png" alt="Tour Image 1" class="w-full h-auto object-cover" />
+          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/30 to-black/10"></div>
+          <div class="absolute right-10 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-90 backdrop-blur-md p-6 rounded-xl max-w-md shadow-md">
+            <div class="flex items-center text-sm text-gray-500 space-x-4 mb-2">
+              <span class="flex items-center gap-1"><i class="fas fa-calendar-alt text-orange-500"></i> 7 Day / 6 Night</span>
+              <span class="flex items-center gap-1"><i class="fas fa-user-friends text-orange-500"></i> Max : 10</span>
+              <span class="flex items-center gap-1"><i class="fas fa-map-marker-alt text-orange-500"></i> Malaysia</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Tour To Satorini</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            </p>
+            <p class="text-lg font-semibold text-orange-500 mb-4">Price: $1300–$1500</p>
+            <button class="btn bg-orange-500 hover:bg-orange-600 text-white">Book Now</button>
+          </div>
+        </div>
+  
+        <div class="relative rounded-lg overflow-hidden">
+          <img src="images/Group 40.png" alt="Tour Image 2" class="w-full h-auto object-cover" />
+          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/30 to-black/10"></div>
+          <div class="absolute left-10 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-90 backdrop-blur-md p-6 rounded-xl max-w-md shadow-md">
+            <div class="flex items-center text-sm text-gray-500 space-x-4 mb-2">
+              <span class="flex items-center gap-1"><i class="fas fa-calendar-alt text-orange-500"></i> 7 Day / 6 Night</span>
+              <span class="flex items-center gap-1"><i class="fas fa-user-friends text-orange-500"></i> Max : 10</span>
+              <span class="flex items-center gap-1"><i class="fas fa-map-marker-alt text-orange-500"></i> Malaysia</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Tour To Satorini</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            </p>
+            <p class="text-lg font-semibold text-orange-500 mb-4">Price: $1300–$1500</p>
+            <button class="btn bg-orange-500 hover:bg-orange-600 text-white">Book Now</button>
+          </div>
+        </div>
+  
+        <div class="relative rounded-lg overflow-hidden">
+          <img src="images/Group 39.png" alt="Tour Image 3" class="w-full h-auto object-cover" />
+          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black/30 to-black/10"></div>
+          <div class="absolute right-10 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-90 backdrop-blur-md p-6 rounded-xl max-w-md shadow-md">
+            <div class="flex items-center text-sm text-gray-500 space-x-4 mb-2">
+              <span class="flex items-center gap-1"><i class="fas fa-calendar-alt text-orange-500"></i> 7 Day / 6 Night</span>
+              <span class="flex items-center gap-1"><i class="fas fa-user-friends text-orange-500"></i> Max : 10</span>
+              <span class="flex items-center gap-1"><i class="fas fa-map-marker-alt text-orange-500"></i> Malaysia</span>
+            </div>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Tour To Satorini</h3>
+            <p class="text-gray-600 text-sm mb-3">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            </p>
+            <p class="text-lg font-semibold text-orange-500 mb-4">Price: $1300–$1500</p>
+            <button class="btn bg-orange-500 hover:bg-orange-600 text-white">Book Now</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="text-center mt-12">
+        <button class="btn bg-orange-500 hover:bg-orange-600 text-white px-8">See All Packages</button>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="bg-gray-100 text-center py-10">
+    <div class="flex justify-center items-center space-x-2 mb-4">
+      <img src="images/Group 40071 (2).png" alt="Hero Travel Logo" class="w-8 h-8" />
+      <h2 class="text-2xl font-bold">
+        Hero <span class="text-orange-500">Travel</span>
+      </h2>
+    </div>
+  
+    <p class="max-w-xl mx-auto text-gray-500 text-sm mb-6">
+      Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti
+      vulputate. Leo erat maecenas vitae elementum ultricies nullam.
+    </p>
+  
+    <div class="flex justify-center space-x-6 text-2xl mb-6">
+      <a href="#" class="text-black hover:text-orange-500"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="text-black hover:text-orange-500"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="text-black hover:text-orange-500"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="text-black hover:text-orange-500"><i class="fa-brands fa-github"></i></a>
+    </div>
+  
+    <hr class="border-gray-300 w-3/4 mx-auto mb-6" />
+  
+    <p class="text-sm text-gray-600">2017, All Rights Reserved.</p>
+  </footer>    
+
+</body>
+</html>
